@@ -1,0 +1,200 @@
+.jumbotron{
+    background-color: white;
+}
+/* .jumbotron p{
+    padding: 15px;
+} */
+   body{
+    overflow-x: hidden;
+}   
+#drop{
+    margin-right: 1px;
+    text-align: end;
+}
+#home{
+    background-size: cover;
+    min-height: 80vh;
+    position: relative;
+    color: white;
+}
+#home0{
+    background-size: cover;
+    min-height: 67vh;
+    position: relative;
+    color: white;
+}
+
+#home1{
+    
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;
+    color: white;
+}
+#home2{
+    
+    background-size: cover;
+    min-height: 70vh;
+    position: relative;
+    color: white;
+}
+
+#first{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-size: 60px;
+    font-weight: bold;
+   
+}
+#home .para1{
+    margin-top: 170px;
+    margin-left: 180px;
+}
+#home1 .para1{
+    margin-top: 100px;
+    margin-left: 180px;
+}
+#home2 .para1{
+    margin-top: 100px;
+
+}
+#home0 .para1{
+    margin-left: 180px;
+}
+.btn{
+    margin-left: 180px; 
+    margin-bottom: 50px;
+}
+.container-fluid .media{
+    margin-top: 100px;
+    margin-left: 90px;
+}
+.container-fluid .para2{
+    margin-top: 40px;
+    margin-left: 80px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.container-fluid .para3{
+    margin-left: 80px;
+}
+#btn-1{
+    margin-left: 80px;
+    margin-top: 30px;
+    border-right: none;
+    padding: 20px;
+    color: rgb(95, 126, 43);
+    font-weight: bold;
+    font-size: 20px;
+}
+#btnn-1{
+    margin-top: 30px;
+    border: none;
+    color: rgb(95, 126, 43);
+    font-weight: bold;
+    font-size: 15px; 
+}
+#btnn{
+    margin-left: 2px;
+}
+#btn-3{
+    margin-left: 100px;
+    margin-top: 20px;
+    border-right: none;
+    padding: 20px;
+    color:dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+#btn0-3{
+    margin-left: 20px;
+    margin-top: 20px;
+    border-right: none;
+    padding: 20px;
+    color:dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+#btnn-3{
+    margin-top: 20px;
+    border-right: none;
+    color:dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: white;
+}
+
+.para4{
+    margin-top: 30px;
+    margin-left: 160px;
+}
+.container{
+    width: 100%;
+    max-width: 800px;
+}
+
+.row .col-md-6{
+    height: 400px;
+    grid-column: 2 / span 2;
+    grid-row: 1/span2;
+    
+    
+}
+
+#image{
+    z-index: 1;
+    position: relative;
+    margin-left: 250px;
+    margin-top: 50px ;
+    
+}
+#image0{
+    z-index: 1;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 50px ;
+    
+}
+#image00{
+    z-index: 1;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 60px ;
+    
+}
+@media(max-width:320px){
+    #footer-img{
+        position: relative;
+        top: 50px;
+    }
+}
+/* @media(max-width:320px){
+    .syngneta-image{ 
+        width: 80px;
+        margin-bottom: 100px;    
+    }
+    #nav1{
+        visibility:none ;
+    }
+} */
+#owl{
+    transform: translateY(15px);
+    transition: 0.5s;
+}
+#owl:hover{
+    transform: translateY(-20px);
+}
+#read{
+    transform: translateX(-100px);
+    transition: 0.5s;
+}
+#read:hover{
+    transform: translateX(3px);
+
+}
+@media(max-width:425px){
+    #syngenta{
+        margin-right: 1px;
+    }
+}
